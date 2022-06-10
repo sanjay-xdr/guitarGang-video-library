@@ -1,0 +1,26 @@
+.aside-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #181818;
+    color: white;
+    width: 170px;
+    height: 100vh;
+   
+   
+   
+}
+
+
+
+.btn{
+  
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin:10px  10px;
+}
+
+.btn1{
+    margin: 0 10px;
+}

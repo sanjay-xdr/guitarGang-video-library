@@ -1,0 +1,104 @@
+.videocard-container{
+    display: flex;
+    flex-direction: column;
+  background-color: #181818;
+  color: #FFFFFF;
+    width: 400px;
+    padding:16px;
+   
+    cursor: pointer;
+    height: 300px;
+
+ z-index: -999;
+  
+    margin: 10px;
+}
+
+.size{
+   
+    height: 350px;
+   
+}
+
+.size:hover{
+    border: 1px solid #f87171;
+}
+.videocard-creatorProfile{
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.videocard-info{
+    display: flex;
+}
+
+.videocard-img{
+    margin-left: 8px;
+}
+
+.videocard-text{
+    margin-left: 10px;
+}
+
+.videocard-title{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 290px;
+   
+}
+
+.videocard-channelName{
+    margin: 2px;
+    font-weight: 500;
+}
+
+.show-more{
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.center{
+    margin: 0 5px;
+    font-weight: 800;
+}
+
+
+.more-options{
+    background-color: #44403c;
+    color: white;
+  
+  position: relative;
+    width: 150px;
+  height: 125px;
+  top: -70px;
+   left: 250px;
+   z-index: 999;
+   margin: 0;
+}
+
+.option-container{
+    display: flex;
+    flex-direction: column;
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid salmon;
+    cursor: pointer;
+    color:white;
+    padding: 8px;
+
+}
+
+.options:hover{
+    background-color: #f87171;
+}
+.margin-l-2{
+    margin:0  4px;
+}
