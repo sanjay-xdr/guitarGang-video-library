@@ -1,0 +1,126 @@
+.singleVideo-container{
+    
+   margin: 20px 128px;
+   cursor: pointer;
+  
+
+  
+}
+
+*{
+    color: #ffffff;
+}
+
+.videoInfo-container{
+  
+    display: flex;
+    flex-direction: column;
+    margin: 20px 128px;
+
+}
+
+.videoText{
+    width: 1000px;
+  
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  
+ 
+    
+}
+
+.singleVideo-views{
+    font-style: italic;
+}
+
+.singleVideo-title{
+    font-size: 20px;
+}
+
+.mr-2{
+    margin: 2px;
+}
+
+
+.singleVideo-cta{
+ 
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.singleVideo-like,.singleVideo-playlist,.singleVideo-watchlater{
+    font-size: 30px;
+    cursor: pointer;
+   
+  
+}
+
+.singleVideo-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.SingleVideo-wrapper{
+    display: flex;
+    
+}
+
+
+.singleVideo-creator{
+    margin: 0 2px;
+    align-self: center;
+}
+
+
+.modal-container{
+    background-color: salmon;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+  
+    padding: 16px;
+    width: 500px;
+
+}
+
+.right{
+   float: right;
+}
+
+.playlist-input{
+    color: #181818;
+    width: 800px;
+    height: 30px;
+    border: none;
+    outline: 0;
+    font-size: 20px;
+    padding: 10px;
+   
+   
+}
+
+
+
+.modal-btn{
+    background-color: #181818;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.demo{
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+input[type="checkbox"]{
+    margin: 10px;
+}
