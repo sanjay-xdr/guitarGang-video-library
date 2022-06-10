@@ -1,0 +1,33 @@
+.video2-wrapper{
+    display: flex;
+    width: 700px;
+   
+    margin: 32px;
+    border: 1px solid salmon;
+    border-radius: 10px;
+ 
+   
+    
+
+}
+
+.video2-img{
+    height: 120px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.video2-text{
+  align-self: center;
+    padding: 19px;
+    width: 500px;
+  
+}
+
+.video2-del-icon{
+    align-self: center;
+    font-size: 25px;
+    margin: 0 10px;
+   
+    cursor: pointer;
+}
