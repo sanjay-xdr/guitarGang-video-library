@@ -1,0 +1,71 @@
+.login-form{
+   
+    display: flex;
+    flex-direction: column;
+  border: 1px solid salmon;
+  height: 450px;
+  width: 600px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ align-items: center;
+}
+
+.login-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: salmon;
+}
+
+input[type="email"],input[type="password"]  {
+    width: 400px;
+    margin: 16px 64px;
+    height: 40px;
+    font-size: 20px;
+    color: #181818;
+    padding: 5px;
+}
+
+.login-title{
+    color: #181818;
+    margin: 16px;
+}
+
+input[type="submit"],.btn-test-credential{
+    background-color: salmon;
+    height: 60px;
+    width: 160px;
+    font-size: 24px;
+    align-self: center;
+    border: none;
+    box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.75);
+    cursor: pointer;
+    
+}
+
+input[type="email"]:focus,input[type="password"]:focus{
+    outline: none;
+    border: 1px solid ;
+    border-color: salmon;
+    
+}
+
+.btn-test-credential{
+    width: 300px;
+    margin-top: 10px;
+    background-color: transparent;
+    color: salmon;
+    border: 2px solid salmon;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+
+.btn-test-credential:hover{
+ color: #fff;
+ background-color: salmon;
+}
